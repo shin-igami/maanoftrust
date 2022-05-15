@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/Footer.css'
-import Logo from '../assets/MANOFF 3D  LOGO 26-11-21 PNG.png'
+import Logo from '../image/MANOFF 3D  LOGO 26-11-21 PNG.png'
+
 const Footer = () => {
   return (
     <div className="page-footer">

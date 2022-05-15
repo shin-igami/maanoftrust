@@ -1,0 +1,40 @@
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+  }
+  .navbox{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 84px;
+      align-items: center;
+       }
+  #header #logo img{
+      width: 150px;
+      height: 50px;
+    }
+ .navitems{
+     display: flex;
+     list-style: none;
+     /* border: 1px solid blue; */
+     margin-left: 450px;
+     margin-top: 30 px;
+
+ }
+ .navitems li {
+    margin: 5px;
+    
+}
+ .navitems li a{
+     text-decoration: none;
+     font-size: 13px;
+     color: rgba(85, 85, 85, 1);
+ }
+.navitems li a:hover,
+.navitems li a:active,
+.navitems li a:focus {
+  color: #51d8af;
+  outline: none;
+  text-decoration: none;
+}
