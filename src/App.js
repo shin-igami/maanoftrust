@@ -4,6 +4,7 @@ import Crousel from './Components/Crousel';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Topbar from './Components/Topbar';
+import Home from './Pages/Home/Home';
 
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
 
       <Topbar/>
       <Navbar/>
+<Home/>
 
-      <Crousel/>
-   <About/>
+
+
+
    <Footer/>
     </div>
   );
