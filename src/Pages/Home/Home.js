@@ -8,13 +8,11 @@ const Home = () => {
   return (
    <>
       <Crousel/>
-<<<<<<< HEAD
-      <About/>
-=======
+
    <About/>
   <FocusSectors/>
   <CurrentProgram/>
->>>>>>> master
+
    </>
   )
 }

@@ -1,10 +1,4 @@
 import './App.css';
-<<<<<<< HEAD
-import About from './Components/About';
-import Card4 from './Components/Card4';
-import Crousel from './Components/Crousel';
-=======
->>>>>>> master
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Our_story from './Components/Our_story';
@@ -20,23 +14,13 @@ function App() {
 
       <Topbar/>
       <Navbar/>
-<<<<<<< HEAD
-      {/* <Home/> */}
-      <Our_story/>
-      <Card4/>
-      
-
-
-
-
-=======
       <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path="about-maanof" element={<About/> } />
         <Route path="team" element={<Team/>} />
         <Route path="mentors" element={<Mentor/>} />
       </Routes>
->>>>>>> master
+
    <Footer/>
     </div>
   );
