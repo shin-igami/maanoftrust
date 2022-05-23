@@ -1,8 +1,15 @@
 import React from 'react'
+import Crousel from '../../Components/Crousel'
+import Intro from './Intro/Intro'
+import OurValues from './OurValues/OurValues'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div> 
+    <Crousel/>
+    <Intro/>
+    <OurValues/>
+    </div>
   )
 }
 

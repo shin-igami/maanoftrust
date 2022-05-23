@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap');
-.about{
+.aboutc{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -8,41 +8,41 @@
    margin-right: 15%;
    font-family: 'Josefin Sans', sans-serif;
 }
-.about section{
+.aboutc section{
     display: flex;
     margin-top: 50px;
 }
-.about-image1 {
+.aboutc-image1 {
     padding-right: 54px;
     margin-right: 54px;
     border-right: 2px solid red;
 
 }
-.about-image2 {
+.aboutc-image2 {
     padding-left: 54px;
     margin-left: 54px;
     border-left: 2px solid red;
 
 }
-.about-image1 img{
+.aboutc-image1 img{
     height: 250px;
     width: 300px;
     border: 1px solid grey;
     border-radius: 14px;
 }
-.about-image2 img{
+.aboutc-image2 img{
     height: 250px;
     width: 300px;
     border: 1px solid grey;
     border-radius: 14px;
 }
-.about-content{
+.aboutc-content{
     text-align: left;
     margin: auto;
 }
-.about-content p{
+.aboutc-content p{
     color: grey;
 }
-.about-content h2{
+.aboutc-content h2{
     font-weight: 1200;
 }

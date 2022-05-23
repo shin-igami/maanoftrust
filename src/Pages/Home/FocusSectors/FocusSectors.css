@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.FocusSectors{
+  
+  background-color: rgb(241, 242, 254);
+}
+.heading{
+  padding-top: 60px;
+}
+.FocusSectors .container{
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-bottom: 20px;
+   margin-left: 10%;
+   margin-right: 15%;
+    font-family: "Poppins", sans-serif;
+  }

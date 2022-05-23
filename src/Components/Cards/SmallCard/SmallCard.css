@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+body .SmallCard{
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   margin-left: 10%;
+   margin-right: 15%;
+    font-family: "Poppins", sans-serif;
+}
+.SmallCard .box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+    border-top: 3px solid var(--red);
+    position: relative;
+    width: 320px;
+    border-radius: 15px;
+}
+.box p {
+    color: var(--grayishBlue);
+}
+.box .img {
+    float: right;
+}
+.box .h2 {
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+}
+@media (max-width: 450px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 180px;
+    }
+}
