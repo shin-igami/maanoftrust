@@ -1,0 +1,10 @@
+.outercard{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.divstyle{
+    width: 20rem;
+    margin: 0px 45px;
+}

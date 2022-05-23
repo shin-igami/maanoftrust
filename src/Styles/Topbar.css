@@ -17,7 +17,7 @@
 }
 .emailphone i{
     display: flex;
-    margin: 0px 3px;
+    margin: 0px 1px;
     height: 14px;
     width: 15px;
     
@@ -26,9 +26,10 @@
     float: right;
 
 }
+.socialmedia a{
+    text-decoration: none;
+}
 .socialmedia i{
-    
-    padding: 5px;
-   
-    
+    color: black;
+    padding: 8px
 }
