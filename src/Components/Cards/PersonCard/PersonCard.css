@@ -10,13 +10,13 @@
   --width-container: 1200px;
 }
 
-  .card{
+  .person-card{
     list-style: none;
     position: relative;
     border: none;
   }
   
-  .card:before{
+  .person-card:before{
     content: '';
     display: block;
     padding-bottom: 150%;
@@ -40,11 +40,11 @@
       transform 200ms linear;
   }
   
-  .card:hover .card__background{
+  .person-card:hover .card__background{
     transform: scale(1.05) translateZ(0);
   }
   
-  .card-grid:hover > .card:not(:hover) .card__background{
+  .card-grid:hover > .person-card:not(:hover) .card__background{
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
   }
   

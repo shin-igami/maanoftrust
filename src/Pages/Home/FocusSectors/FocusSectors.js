@@ -12,8 +12,6 @@ const FocusSectors = () => {
         <ImgCard/>
         <ImgCard/>
         <ImgCard/>
-        <ImgCard/>
-        <ImgCard/>
     </div>
     </div>
   )

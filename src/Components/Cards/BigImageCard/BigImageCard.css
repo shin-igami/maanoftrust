@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.BigImageCard{
+    margin: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Arial;
+    font-family: "Poppins", sans-serif;
+}
+.bigCard-image img{
+    width:100%;
+    height:40vh;
+}
+.BigImageCard .text-content{
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+  
+}
+.BigImageCard .text-content .section-1 .special-section{
+    background-color: rgb(241, 242, 254);
+}
