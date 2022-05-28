@@ -37,15 +37,24 @@ function Navbar() {
             <li><Link class="dropdown-item" to="/">Incubating Incubators</Link></li>
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <Link class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our impact
+          </Link>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link class="dropdown-item" to="/">Action</Link></li>
+            <li><Link class="dropdown-item" to="/">Another action</Link></li>
+            <li><Link class="dropdown-item" to="/impact-Diversity">Diversity and inclusion</Link></li>
+
+          </ul>
+        </li>
          <li class="nav-item dropdown">
           <Link class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Program
           </Link>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><Link class="dropdown-item" to="/">Action</Link></li>
+            <li><Link class="dropdown-item" to="/">Focus Sectors</Link></li>
             <li><Link class="dropdown-item" to="/">Another action</Link></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" to="/">Something else here</Link></li>
           </ul>
         </li>
          <li class="nav-item dropdown">
@@ -81,18 +90,7 @@ function Navbar() {
             <li><Link class="dropdown-item" to="/">Something else here</Link></li>
           </ul>
         </li>
-         <li class="nav-item dropdown">
-          <Link class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Our impact
-          </Link>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><Link class="dropdown-item" to="/">Action</Link></li>
-            <li><Link class="dropdown-item" to="/">Another action</Link></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><Link class="dropdown-item" to="/">Something else here</Link></li>
-
-          </ul>
-        </li>
+        
          
        </ul>
      </div>
