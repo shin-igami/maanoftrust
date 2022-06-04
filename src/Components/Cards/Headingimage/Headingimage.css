@@ -1,0 +1,21 @@
+
+.Texts{
+    color: white;
+    margin-top: 70px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.Title{
+   font-size: 50px;
+   font-weight: bold;
+   font-style: unset ;
+}
+.para{
+    font-size: 25px;
+    width: 50%;
+    font-weight: 500;
+    font-style: italic;
+}

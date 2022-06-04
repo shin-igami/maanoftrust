@@ -3,7 +3,11 @@ body {
     color: #444;
     font-family: "Open Sans", sans-serif;
   }
+  .header{
+   
+  }
   .navbox{
+     
       display: flex;
       justify-content: center;
       width: 100%;
