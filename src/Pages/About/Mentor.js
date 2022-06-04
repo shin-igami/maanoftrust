@@ -3,12 +3,12 @@ import PersonCard from '../../Components/Cards/PersonCard/PersonCard'
 import "../../Components/Cards/Headingimage/Headingimage.css"
 import './Mentor.css'
 import Headingimage from '../../Components/Cards/Headingimage/Headingimage'
-const Mentorimage = require('../../image/Mentor.jpg')
+import Mentorimage from '../../image/Mentor.jpg'
 const Mentor = () => {
  
   return (
     <>
-     <Headingimage cardimg="./Mentor.jpg" Title="Our Mentor" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+     <Headingimage cardimg={Mentorimage} Title="Our Mentor" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
     <div className='mentor'>
         <h1>Our Mentors</h1>
              <section class="hero-section">
