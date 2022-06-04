@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600');
+
+.FormCard input:active, input:focus {
+  outline: none;
+}
+.FormCard input{
+    border: 1px solid #5EB4CB;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #9C9C9C;
+    font-family: inherit;
+    padding:13px 25px;
+    background: transparent;
+    margin-bottom: 20px;  
+    width:350px;
+    max-width: 100%;    
+}
+
+.FormCard ul{
+    list-style: none;
+    padding: 0
+}
+
+.FormCard ul li{
+    display: inline-block;
+    padding-right: 10px;     
+}
+.FormCard .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px){
+    .FormCard .container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px){
+    .FormCard .container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 992px){
+    .FormCard .container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 1200px){
+    .FormCard .container {
+    max-width: 1140px;
+}
+}
+
+
+
+.FormCard .left{
+    background-color: #585858;
+}
+.FormCard .wrapper{
+    margin: 125px 0;
+
+}
+
+.FormCard .form{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+
+
+.FormCard .right-col{
+    width: 60%;
+   margin: auto;
+   padding: 70px 0px;  
+    background: rgb(223 246 242 / 70%);
+  
+}
+
+.FormCard .right-col h2{
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: #585858;
+    font-weight: 600;    
+}
+
+.FormCard .right-col button{
+    background: linear-gradient(299.5deg, #6DBAC8 35.53%, #8FC7E9 109.8%);
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
+}
+.FormCard .right-col button:hover{
+    background: linear-gradient(299.5deg, #8FC7E9 35.53%, #6DBAC8 109.8%);
+}
+@media screen and (max-width: 992px) {
+    .FormCard .form{
+        display: block;
+    }
+    .FormCard .left-col img.img1{
+        display: none
+    }
+
+    .FormCard .right-col, .left-col{
+        width:100%;
+        padding: 40px 0;
+    }
+
+}
