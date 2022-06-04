@@ -13,8 +13,10 @@ const Home = () => {
   return (
    <>
       <Crousel/>
-
- <FormCards/>
+<About/>
+<FocusSectors/>
+<CurrentProgram/>
+<MoreMaanof/>
    </>
   )
 }
