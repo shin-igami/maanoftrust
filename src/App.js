@@ -13,6 +13,7 @@ import Contact from './Pages/Contact/Contact';
 import Jobs from './Pages/Contact/Jobs';
 import BecomeMentor from './Pages/Contact/BecomeMentor';
 import BeacomePartner from './Pages/Contact/BeacomePartner';
+import CreatingImpact from './Pages/Ourimpact/CreatingImpact/CreatingImpact';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="team" element={<Team/>} />
         <Route path="mentors" element={<Mentor/>} />
         <Route path="/impact-Diversity" element={ <Diversity/>} />
+        <Route path="/impact-createimpact" element={ <CreatingImpact/>} />
         <Route path="/contact/contact-us" element={<Contact/>} />
         <Route path="/contact/jobs" element={ <Jobs/>} />
         <Route path="/contact/become-a-mentor" element={ <BecomeMentor/>} />

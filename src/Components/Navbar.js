@@ -32,7 +32,7 @@ function Navbar() {
                 Our impact
               </Link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link class="dropdown-item" to="/">Creating Impact</Link></li>
+                <li><Link class="dropdown-item" to="/impact-createimpact">Creating Impact</Link></li>
                 <li><Link class="dropdown-item" to="/impact-Diversity">Diversity and inclusion</Link></li>
 
               </ul>
