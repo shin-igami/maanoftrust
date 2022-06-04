@@ -3,7 +3,6 @@ import './Headingimage.css'
 // import '../../../image/woman.png'
 const image = require('../../../image/Mentor.jpg')
 function Headingimage(props){
-   
     const mystyle = {
         backgroundImage: `url(${props.cardimg})`,    
         backgroundRepeat  :'no-repeat',

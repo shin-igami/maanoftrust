@@ -6,6 +6,7 @@ import "../../../Components/Cards/Headingimage/Headingimage.css"
 import Headingimage from '../../../Components/Cards/Headingimage/Headingimage'
 import DiversityImage from '../../../image/Mentor.jpg'
 
+
 function Diversity() {
   
  
@@ -13,6 +14,7 @@ function Diversity() {
    
     <>
     <Headingimage cardimg={DiversityImage} Title="Diversity" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+
     <Our_impact_on_woman/>
     <CurrentProgram/>
 
