@@ -1,11 +1,11 @@
 import React from 'react'
 import './Headingimage.css'
 // import '../../../image/woman.png'
-
+const image = require('../../../image/Mentor.jpg')
 function Headingimage(props){
-    const cardimage = require(`${props.cardimg}`) 
+   
     const mystyle = {
-        backgroundImage: `url(${cardimage})`,    
+        backgroundImage: `url(${props.cardimg})`,    
         backgroundRepeat  :'no-repeat',
         width: "100%",
         height:" 370px",

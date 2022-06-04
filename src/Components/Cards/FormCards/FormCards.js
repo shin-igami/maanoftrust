@@ -7,7 +7,7 @@ const FormCards = () => {
                 <div class="form">
 
                     <div class="right-col left" style={{
-                        "background-color":"#82c2dd"
+                        "background-color":"#242F9B"
                     }}>
                         <h2>Subscribe to Our Newsletter</h2>
 
