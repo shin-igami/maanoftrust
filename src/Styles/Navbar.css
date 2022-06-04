@@ -1,13 +1,6 @@
-body {
-    background: #fff;
-    color: #444;
-    font-family: "Open Sans", sans-serif;
-  }
-  .header{
-   
-  }
+
+ 
   .navbox{
-     
       display: flex;
       justify-content: center;
       width: 100%;
@@ -24,7 +17,7 @@ body {
      display: flex;
      list-style: none;
      /* border: 1px solid blue; */
-     margin-left: 450px;
+     justify-content: space-around;
      margin-top: 30 px;
 
  }
@@ -34,7 +27,7 @@ body {
 }
  .navitems li a{
      text-decoration: none;
-     font-size: 14px;
+     font-size: 18px;
      padding: 0px 3px;
      color: rgba(85, 85, 85, 1);
  }

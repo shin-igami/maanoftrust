@@ -9,6 +9,10 @@ import Team from './Pages/About/Team';
 import Mentor from './Pages/About/Mentor';
 import Diversity from './Pages/Ourimpact/Diversity/Diversity';
 import Headingimage from './Components/Cards/Headingimage/Headingimage';
+import Contact from './Pages/Contact/Contact';
+import Jobs from './Pages/Contact/Jobs';
+import BecomeMentor from './Pages/Contact/BecomeMentor';
+import BeacomePartner from './Pages/Contact/BeacomePartner';
 
 
 function App() {
@@ -24,6 +28,10 @@ function App() {
         <Route path="team" element={<Team/>} />
         <Route path="mentors" element={<Mentor/>} />
         <Route path="/impact-Diversity" element={ <Diversity/>} />
+        <Route path="/contact/contact-us" element={<Contact/>} />
+        <Route path="/contact/jobs" element={ <Jobs/>} />
+        <Route path="/contact/become-a-mentor" element={ <BecomeMentor/>} />
+        <Route path="/contact/partnerwith-us" element={ <BeacomePartner/>} />
       </Routes>
 
    <Footer/>

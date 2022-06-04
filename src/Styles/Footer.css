@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  a {
+
+  .footer a {
     color: #fff;
     text-decoration: none;
   }
-  .page-footer {
+  .footer .page-footer {
     font-family: 'Roboto', sans-serif;
     
   }
