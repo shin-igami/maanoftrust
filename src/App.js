@@ -13,6 +13,9 @@ import Contact from './Pages/Contact/Contact';
 import Jobs from './Pages/Contact/Jobs';
 import BecomeMentor from './Pages/Contact/BecomeMentor';
 import BeacomePartner from './Pages/Contact/BeacomePartner';
+import CreateImpact from './Pages/Ourimpact/Create Impact/CreateImpact';
+import FocusSectors from './Pages/Home/FocusSectors/FocusSectors';
+import CurrentProgram from './Pages/Home/CurrentProgram/CurrentProgram';
 
 
 function App() {
@@ -27,7 +30,10 @@ function App() {
         <Route path="about-maanof" element={<About/> } />
         <Route path="team" element={<Team/>} />
         <Route path="mentors" element={<Mentor/>} />
-        <Route path="/impact-Diversity" element={ <Diversity/>} />
+        <Route path="/impact/Diversity" element={ <Diversity/>} />
+        <Route path="/impact/creating-impact" element={ <CreateImpact/>} />
+        <Route path="/programs/focus-sectors" element={ <FocusSectors/>} />
+        <Route path="/programs/current-programs" element={ <CurrentProgram/>} />
         <Route path="/contact/contact-us" element={<Contact/>} />
         <Route path="/contact/jobs" element={ <Jobs/>} />
         <Route path="/contact/become-a-mentor" element={ <BecomeMentor/>} />

@@ -11,8 +11,6 @@ const MoreMaanof = () => {
       <Card4/>
       <Card4/>
       <Card4/>
-      <Card4/>
-      <Card4/>
     </div>
     </div>
   )

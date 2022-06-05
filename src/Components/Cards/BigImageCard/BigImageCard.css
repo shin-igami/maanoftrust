@@ -2,8 +2,8 @@
 
 .BigImageCard{
     margin: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 8%;
+    margin-right: 8%;
     font-family: Arial;
     font-family: "Poppins", sans-serif;
 }
@@ -15,7 +15,7 @@
     margin-top: 10px;
     display: flex;
     text-align: left;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .BigImageCard .text-content{
     width: 100%;

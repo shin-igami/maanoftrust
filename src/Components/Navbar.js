@@ -1,15 +1,27 @@
-import React from 'react';
+import { useState,useEffect } from "react"; 
 import "../Styles/Navbar.css";
 import { Link } from 'react-router-dom';
+import Logo from '../image/MANOFF 3D  LOGO 26-11-21 PNG.png'
 function Navbar() {
-  const logo = require('../image/logo1.jpg')
+  const [val,setVal] = useState("navbox")
+  useEffect(() => {
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        setVal("navbox sticky")
+      }else{
+        setVal("navbox")
+      }
+    
+    }
+  }, [val])
+  
   return (
 
     <>
       <header id="header">
-        <div className="navbox">
+        <div className={val}>
           <div id="logo">
-            <Link to="/"><img src={logo} alt="Maanof" title="" /></Link>
+            <Link to="/"><img src={Logo} alt="Maanof" title="" /></Link>
           </div>
           <ul className="navitems">
             <li class="nav-item">
@@ -32,8 +44,8 @@ function Navbar() {
                 Our impact
               </Link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link class="dropdown-item" to="/">Creating Impact</Link></li>
-                <li><Link class="dropdown-item" to="/impact-Diversity">Diversity and inclusion</Link></li>
+                <li><Link class="dropdown-item" to="/impact/creating-impact">Creating Impact</Link></li>
+                <li><Link class="dropdown-item" to="/impact/Diversity">Diversity and inclusion</Link></li>
 
               </ul>
             </li>
@@ -42,8 +54,8 @@ function Navbar() {
                 Program
               </Link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link class="dropdown-item" to="/">Focus Sectors</Link></li>
-                <li><Link class="dropdown-item" to="/">Another action</Link></li>
+                <li><Link class="dropdown-item" to="/programs/focus-sectors">Focus Sectors</Link></li>
+                <li><Link class="dropdown-item" to="/programs/current-programs">Current Programs</Link></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
