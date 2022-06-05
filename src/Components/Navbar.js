@@ -46,7 +46,6 @@ function Navbar() {
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><Link class="dropdown-item" to="/impact/creating-impact">Creating Impact</Link></li>
                 <li><Link class="dropdown-item" to="/impact/Diversity">Diversity and inclusion</Link></li>
-
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -69,8 +68,6 @@ function Navbar() {
                 <li><Link class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</Link></li>
               </ul>
             </li>
-
-
           </ul>
         </div>
       </header>
