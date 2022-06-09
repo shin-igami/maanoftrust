@@ -6,7 +6,7 @@ function Navbar() {
   const [val, setVal] = useState("navbox")
   useEffect(() => {
     window.onscroll = function () {
-      if (document.documentElement.scrollTop > 20) {
+      if (document.documentElement.scrollTop > 27) {
         setVal("navbox sticky")
       } else {
         setVal("navbox")
