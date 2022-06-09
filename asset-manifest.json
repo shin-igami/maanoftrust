@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ffb2369.css",
-    "main.js": "/static/js/main.955a7931.js",
-    "static/media/MANOFF 3D  LOGO 26-11-21 PNG.png": "/static/media/MANOFF 3D  LOGO 26-11-21 PNG.146a40a8cc71b498f15b.png",
-    "static/media/bottomlogo.png": "/static/media/bottomlogo.146a40a8cc71b498f15b.png",
-    "static/media/AboutUs.jpg": "/static/media/AboutUs.5beac88c21059e42595e.jpg",
-    "static/media/Contact_job.jpg": "/static/media/Contact_job.62dca77bc5c08394421a.jpg",
-    "static/media/Contact_Us.jpg": "/static/media/Contact_Us.8f661a06c8f4487b95d2.jpg",
-    "static/media/OurTeam.jpg": "/static/media/OurTeam.5aa23aa9bff4d98f6119.jpg",
-    "static/media/CreateImpact.jpg": "/static/media/CreateImpact.b0d59ceae9ea5a28cc8a.jpg",
-    "static/media/Mentor.jpg": "/static/media/Mentor.1ea448fa8d81ec86100a.jpg",
-    "static/media/Partner.jpg": "/static/media/Partner.a2e0144328b8b8441613.jpg",
-    "index.html": "/index.html",
-    "main.6ffb2369.css.map": "/static/css/main.6ffb2369.css.map",
-    "main.955a7931.js.map": "/static/js/main.955a7931.js.map"
+    "main.css": "/maanoftrust/static/css/main.6ffb2369.css",
+    "main.js": "/maanoftrust/static/js/main.ddb11e73.js",
+    "static/media/MANOFF 3D  LOGO 26-11-21 PNG.png": "/maanoftrust/static/media/MANOFF 3D  LOGO 26-11-21 PNG.146a40a8cc71b498f15b.png",
+    "static/media/bottomlogo.png": "/maanoftrust/static/media/bottomlogo.146a40a8cc71b498f15b.png",
+    "static/media/AboutUs.jpg": "/maanoftrust/static/media/AboutUs.5beac88c21059e42595e.jpg",
+    "static/media/Contact_job.jpg": "/maanoftrust/static/media/Contact_job.62dca77bc5c08394421a.jpg",
+    "static/media/Contact_Us.jpg": "/maanoftrust/static/media/Contact_Us.8f661a06c8f4487b95d2.jpg",
+    "static/media/OurTeam.jpg": "/maanoftrust/static/media/OurTeam.5aa23aa9bff4d98f6119.jpg",
+    "static/media/CreateImpact.jpg": "/maanoftrust/static/media/CreateImpact.b0d59ceae9ea5a28cc8a.jpg",
+    "static/media/Mentor.jpg": "/maanoftrust/static/media/Mentor.1ea448fa8d81ec86100a.jpg",
+    "static/media/Partner.jpg": "/maanoftrust/static/media/Partner.a2e0144328b8b8441613.jpg",
+    "index.html": "/maanoftrust/index.html",
+    "main.6ffb2369.css.map": "/maanoftrust/static/css/main.6ffb2369.css.map",
+    "main.ddb11e73.js.map": "/maanoftrust/static/js/main.ddb11e73.js.map"
   },
   "entrypoints": [
     "static/css/main.6ffb2369.css",
-    "static/js/main.955a7931.js"
+    "static/js/main.ddb11e73.js"
   ]
 }
