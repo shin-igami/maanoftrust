@@ -8,7 +8,7 @@ const FocusSectors = () => {
     <h1>Focus Sectors</h1>
         <p className='text-muted'>We run the following main programs.</p>
     </div>
-    <div className='container card-coloums'>
+    <div className='Container card-coloums'>
         <ImgCard/>
         <ImgCard/>
         <ImgCard/>

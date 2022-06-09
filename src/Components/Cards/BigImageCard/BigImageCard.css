@@ -31,3 +31,16 @@
     font-size: 1.15rem;
     padding: 17px;
 }
+@media (max-width:850px) {
+    .BigImageCard .text-content{
+    flex-direction: column;
+    }  
+    .BigImageCard .text-content .section-1{
+        width: 100%;
+        text-align: center;
+    }
+    .BigImageCard .text-content .section-2{
+        width: 100%;
+        text-align: center;
+    }
+}

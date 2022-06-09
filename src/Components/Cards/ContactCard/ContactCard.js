@@ -19,9 +19,9 @@ const ContactCard = () => {
 				<div class="soc">
 					<p>follow us </p>
 					<ul>
-						<li><a href="#"><img src="img/fb.png" alt=""/></a></li>
-						<li><a href="#"><img src="img/Insta.png" alt=""/></a></li>
-						<li><a href="#"><img src="img/pinterest.png" alt=""/></a></li>
+						<li><a href="#"><i className='fa fa-facebook'></i></a></li>
+						<li><a href="#"><i className='fa fa-youtube'></i></a></li>
+						<li><a href="#"><i className='fa fa-instagram'></i></a></li>
 					</ul>
 				</div>
 			</div>

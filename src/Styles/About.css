@@ -7,6 +7,7 @@
    margin-left: 15%;
    margin-right: 15%;
    font-family: 'Josefin Sans', sans-serif;
+   font-size: 1.2rem;
 }
 .aboutc section{
     display: flex;
@@ -45,4 +46,25 @@
 }
 .aboutc-content h2{
     font-weight: 1200;
+}
+@media (max-width: 1016px)  {
+    .aboutc section{
+        flex-direction: column;
+    }
+    .aboutc-image1{
+        height: 180px;
+        width: 230px;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        margin-bottom: 90px
+    }
+    .aboutc-image2{
+        height: 180px;
+        width: 230px;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        margin-bottom: 80px
+    }
 }

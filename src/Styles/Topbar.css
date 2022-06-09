@@ -4,10 +4,9 @@
     height: 43px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 165px;
+    justify-content: space-evenly;
 }
-.emailphone {
+.email {
     font-size: 14px;
     display: flex;
     float: left;
@@ -15,7 +14,22 @@
     align-items: center;
     
 }
-.emailphone i{
+.phone {
+    font-size: 14px;
+    display: flex;
+    float: left;
+    padding: 1px;
+    align-items: center;
+    
+}
+.email i{
+    display: flex;
+    margin: 0px 1px;
+    height: 14px;
+    width: 15px;
+    
+}
+.phone i{
     display: flex;
     margin: 0px 1px;
     height: 14px;
@@ -32,4 +46,9 @@
 .socialmedia i{
     color: black;
     padding: 8px
+}
+@media (max-width:850px) {
+    .socialmedia{
+        display: none;
+    }
 }

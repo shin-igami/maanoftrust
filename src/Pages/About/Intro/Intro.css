@@ -5,11 +5,11 @@
      margin-bottom: 20px;
  
 }
-.intro .container{
+.intro .Container{
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-    margin-right: 15%;
+    margin-right: 10%;
    font-family: 'Josefin Sans', sans-serif;
 padding: 60px 0px;
 }
@@ -35,8 +35,28 @@ padding: 60px 0px;
 }
 .intro-content p{
     color: grey;
-    width: 70%;
 }
 .intro-content h2{
     font-weight: 1200;
+}
+@media (max-width:950px) {
+    .intro-image1 img{
+        height: 250px;
+        width: 230px;
+        border: 1px solid grey;
+        border-radius: 14px;
+    }
+    .intro section{
+        flex-direction: column;
+    }
+    .intro-image1{
+        margin: 0px;
+        padding: 0px;
+      border: none;
+      margin-bottom: 40px
+    }
+    .intro-content{
+      text-align: center;
+        
+    }
 }

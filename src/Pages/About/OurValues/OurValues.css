@@ -13,7 +13,6 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin-bottom: 20px;
-   margin-left: 10%;
-   margin-right: 15%;
+    margin: auto;
     font-family: "Poppins", sans-serif;
   }

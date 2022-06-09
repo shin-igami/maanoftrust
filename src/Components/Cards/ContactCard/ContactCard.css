@@ -108,10 +108,10 @@
 .ContactCard .left-col .soc{
     margin: 100px 0 0;
 }
-.ContactCard .left-col .soc a img{
+.ContactCard .left-col .soc a i{
     transition: 0.5s;   
 }
-.ContactCard .left-col .soc a img:hover{
+.ContactCard .left-col .soc a i:hover{
     transition: 0.5s;
     transform: scale(1.3)
 }
@@ -164,9 +164,11 @@
         display: none
     }
 
-    .ContactCard .right-col, .left-col{
+    .ContactCard .right-col{
         width:100%;
-        padding: 40px 0;
+    }
+    .ContactCard .left-col{
+        width:100%;
     }
 
 }

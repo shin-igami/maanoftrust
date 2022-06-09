@@ -17,7 +17,6 @@ function Diversity() {
 
     <Our_impact_on_woman/>
     <CurrentProgram/>
-
     </>
   )
 }

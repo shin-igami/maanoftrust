@@ -12,9 +12,9 @@ import FormCards from '../../Components/Cards/FormCards/FormCards'
 const Home = () => {
   return (
    <>
-      <Crousel/>
-<About/>
-<FocusSectors/>
+   <Crousel/>
+ <About/>
+ <FocusSectors/>
 <CurrentProgram/>
 <MoreMaanof/>
    </>

@@ -18,8 +18,7 @@
     padding: 30px;
     margin: 20px;  
     border-top: 3px solid var(--red);
-    position: relative;
-    width: 46%;
+    width: 500px;
     border-radius: 15px;
 }
 .SmallCard p {
@@ -32,15 +31,10 @@
     color: var(--varyDarkBlue);
     font-weight: var(--weight3);
 }
-@media (max-width: 450px) {
-    .SmallCard {
-        height: 200px;
-    }
-}
+
 
 @media (max-width: 950px) and (min-width: 450px) {
     .SmallCard {
         text-align: center;
-        height: 180px;
     }
 }

@@ -1,19 +1,19 @@
 .impactonwoman{
    
     background-color:rgb(233 219 235);
-    height: 380px;
+    
     margin: 100px 0px;
 }
 .headline{
     font-size: 20px;
     font-weight: bold;
     padding-top: 50px;
-    padding-left: 195px;
+    padding-left: 13%;
 }
 .card-container{
 display: flex;
 justify-content: center;
-
+flex-wrap: wrap;
 
 /* justify-content: center; */
 }

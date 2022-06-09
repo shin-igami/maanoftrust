@@ -8,9 +8,13 @@ function Topbar() {
     <>
     <div className="topbar"> 
 
-   <div className="emailphone">
+   <div className="email">
     
    <i className="fa-solid fa-envelope"></i>Maanof@gmail.com    
+    
+   </div>
+   <div className="phone">
+     
    <i className="fa-solid fa-phone"></i>    +9999336369
     
    </div>

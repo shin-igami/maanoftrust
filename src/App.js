@@ -22,9 +22,9 @@ import CurrentProgram from './Pages/Home/CurrentProgram/CurrentProgram';
 function App() {
   return (
     <div className="App">
-
       <Topbar/>
-      <Navbar/>
+<Navbar/>
+
       
       <Routes>
         <Route path="/" element={ <Home/> } />
@@ -40,8 +40,8 @@ function App() {
         <Route path="/contact/become-a-mentor" element={ <BecomeMentor/>} />
         <Route path="/contact/partnerwith-us" element={ <BeacomePartner/>} />
       </Routes>
-
-   <Footer/>
+<Footer/>
+ 
     </div>
   );
 }
