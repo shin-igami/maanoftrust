@@ -43,9 +43,25 @@
 .socialmedia a{
     text-decoration: none;
 }
+
 .socialmedia i{
     color: black;
     padding: 8px
+}
+#twiter:hover {
+    color: #00acee;
+}
+#facebook:hover{
+    color: #4267B2;
+}
+#insta:hover{
+    color: #E1306C;
+}
+#googleplus:hover{
+    color:  #db4a39;
+}
+#linkdin:hover{
+    color:  #0077b5;
 }
 @media (max-width:850px) {
     .socialmedia{

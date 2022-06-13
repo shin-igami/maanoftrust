@@ -3,7 +3,7 @@ import PersonCard from '../../Components/Cards/PersonCard/PersonCard'
 import "../../Components/Cards/Headingimage/Headingimage.css"
 import './Mentor.css'
 import Headingimage from '../../Components/Cards/Headingimage/Headingimage'
-import Mentorimage from '../../image/Mentor.jpg'
+import Mentorimage from '../../image/Mentor1.jpg'
 const Mentor = () => {
  
   return (

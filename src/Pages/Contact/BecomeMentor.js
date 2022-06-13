@@ -1,7 +1,7 @@
 import React from 'react'
 import FormCards from '../../Components/Cards/FormCards/FormCards'
 import Headingimage from '../../Components/Cards/Headingimage/Headingimage'
-import Mentor from '../../image/Mentor.jpg'
+import Mentor from '../../image/BecomeMentor.jpg'
 const BecomeMentor = () => {
   return (
     <>

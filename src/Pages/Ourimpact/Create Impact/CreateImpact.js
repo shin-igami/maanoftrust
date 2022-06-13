@@ -2,7 +2,7 @@ import React from 'react'
 import './CreateImpact.css'
 import BigImageCard from '../../../Components/Cards/BigImageCard/BigImageCard'
 import Headingimage from '../../../Components/Cards/Headingimage/Headingimage'
-import creatingimpactimg from '../../../image/CreateImpact.jpg'
+import creatingimpactimg from '../../../image/CreateImpact1.jpg'
 const CreateImpact = () => {
   return (
      <>

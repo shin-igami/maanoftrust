@@ -1,8 +1,12 @@
 import React from 'react'
+import Headingimage from '../../../Components/Cards/Headingimage/Headingimage'
 import PingCard from '../../../Components/Cards/PingCard/PingCard'
 import './CurrentProgram.css'
+
 const CurrentProgram = () => {
   return (
+    <>
+
     <div className='current-programs'>
     <div className="heading">
     <h1>Focus Sectors</h1>
@@ -16,6 +20,7 @@ const CurrentProgram = () => {
       <PingCard/>
     </div>
     </div>
+    </>
   )
 }
 

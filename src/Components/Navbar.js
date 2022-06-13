@@ -47,27 +47,28 @@ const handleClick =() =>{
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <Link  class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+              class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our impact
-              </Link>
+              </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><Link onClick={handleClick} class="dropdown-item" to="/impact/creating-impact">Creating Impact</Link></li>
                 <li><Link onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Diversity and inclusion</Link></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <Link class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Program
-              </Link>
+              </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><Link class="dropdown-item" onClick={handleClick} to="/programs/focus-sectors">Focus Sectors</Link></li>
                 <li><Link class="dropdown-item" onClick={handleClick} to="/programs/current-programs">Current Programs</Link></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <Link class="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contact us
-              </Link>
+              </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><Link onClick={handleClick} class="dropdown-item" to="/contact/contact-us">Contact Us</Link></li>
                 <li><Link onClick={handleClick} class="dropdown-item" to="/contact/jobs">Jobs</Link></li>

@@ -16,6 +16,8 @@ import BeacomePartner from './Pages/Contact/BeacomePartner';
 import CreateImpact from './Pages/Ourimpact/Create Impact/CreateImpact';
 import FocusSectors from './Pages/Home/FocusSectors/FocusSectors';
 import CurrentProgram from './Pages/Home/CurrentProgram/CurrentProgram';
+import Focussec from './Pages/Programs/Focussec';
+import Currprogram from './Pages/Programs/Currprogram';
 
 
 
@@ -33,8 +35,8 @@ function App() {
         <Route path="/mentors" element={<Mentor />} />
         <Route path="/impact/Diversity" element={<Diversity />} />
         <Route path="/impact/creating-impact" element={<CreateImpact />} />
-        <Route path="/programs/focus-sectors" element={<FocusSectors />} />
-        <Route path="/programs/current-programs" element={<CurrentProgram />} />
+        <Route path="/programs/focus-sectors" element={<Focussec/>} />
+        <Route path="/programs/current-programs" element={<Currprogram/>} />
         <Route path="/contact/contact-us" element={<Contact />} />
         <Route path="/contact/jobs" element={<Jobs />} />
         <Route path="/contact/become-a-mentor" element={<BecomeMentor />} />

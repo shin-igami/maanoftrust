@@ -16,7 +16,8 @@
       transition: all 0.5s ease;
        }
        .sticky{
-        background-image: linear-gradient( to top, #5c5c5c, #110f0f  );
+        /* background-image: linear-gradient( to top, #5c5c5c, #110f0f  ); */
+        background-color: #f87b27;
         color:white;
         transition: all 1s ease;
        }
