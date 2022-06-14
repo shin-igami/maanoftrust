@@ -3,7 +3,7 @@ import PersonCard from '../../Components/Cards/PersonCard/PersonCard'
 import './Team.css'
 import "../../Components/Cards/Headingimage/Headingimage.css"
 import Headingimage from '../../Components/Cards/Headingimage/Headingimage'
-import OurTeamimage from '../../image/OurTeam.jpg'
+import OurTeamimage from '../../image/OurTeam1.jpg'
 const Team = () => {
   
   return (<>
