@@ -13,7 +13,7 @@ const Crousel = () => {
           <img src="https://wallpaperaccess.com/full/1579893.jpg" className="d-block w-100" data-bs-interval="4000" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
-            <a href="" className="btn red-btn">Donate Now</a>
+            <a href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>
           </div>
         </div>
         <div className="carousel-item">

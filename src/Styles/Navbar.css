@@ -54,6 +54,13 @@
      padding: 0px 3px;
      color: rgba(85, 85, 85, 1);
  }
+ .navitems li a.active{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 3px;
+    color: orange;
+}
 .navitems li a:hover,
 .navitems li a:active,
 .navitems li a:focus {

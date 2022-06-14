@@ -1,6 +1,6 @@
 import { useState, useEffect,useRef } from "react";
 import "../Styles/Navbar.css";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Logo from '../image/MANOFF 3D  LOGO 26-11-21 PNG.png'
 function Navbar() {
   const [val, setVal] = useState("navbox")
@@ -24,7 +24,7 @@ const handleClick =() =>{
       <header id="header">
         <div className={val}>
           <div id="logo">
-            <Link to="/"><img src={Logo} alt="Maanof" title="" /></Link>
+            <NavLink to="/"><img src={Logo} alt="Maanof" title="" /></NavLink>
           </div>
           <input type="checkbox" id="click" />
           <label htmlFor="click" className="menu-btn" ref={refClose}>
@@ -32,7 +32,7 @@ const handleClick =() =>{
           </label>
           <ul className="navitems">
             <li class="nav-item">
-              <Link class="nav-link" to="/" onClick={handleClick}>Home</Link>
+              <NavLink class="nav-link" to="/" onClick={handleClick}>Home</NavLink>
             </li>
 
             <li class="nav-item dropdown">
@@ -40,10 +40,10 @@ const handleClick =() =>{
                 About
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link onClick={handleClick} class="dropdown-item" to="/about-maanof">About Maanof</Link></li>
-                <li><Link onClick={handleClick} class="dropdown-item" to="/team">Team</Link></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/about-maanof">About Maanof</NavLink></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/team">Team</NavLink></li>
 
-                <li><Link onClick={handleClick} class="dropdown-item" to="/mentors">Mentors</Link></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/mentors">Mentors</NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -52,8 +52,8 @@ const handleClick =() =>{
                 Our impact
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link onClick={handleClick} class="dropdown-item" to="/impact/creating-impact">Creating Impact</Link></li>
-                <li><Link onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Diversity and inclusion</Link></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/creating-impact">Creating Impact</NavLink></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Diversity and inclusion</NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -61,8 +61,8 @@ const handleClick =() =>{
                 Program
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link class="dropdown-item" onClick={handleClick} to="/programs/focus-sectors">Focus Sectors</Link></li>
-                <li><Link class="dropdown-item" onClick={handleClick} to="/programs/current-programs">Current Programs</Link></li>
+                <li><NavLink class="dropdown-item" onClick={handleClick} to="/programs/focus-sectors">Focus Sectors</NavLink></li>
+                <li><NavLink class="dropdown-item" onClick={handleClick} to="/programs/current-programs">Current Programs</NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -70,10 +70,10 @@ const handleClick =() =>{
                 Contact us
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link onClick={handleClick} class="dropdown-item" to="/contact/contact-us">Contact Us</Link></li>
-                <li><Link onClick={handleClick} class="dropdown-item" to="/contact/jobs">Jobs</Link></li>
-                <li><Link onClick={handleClick} class="dropdown-item" to="/contact/become-a-mentor">Become A Mentor</Link></li>
-                <li><Link onClick={handleClick}  class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</Link></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/contact-us">Contact Us</NavLink></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/jobs">Jobs</NavLink></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/become-a-mentor">Become A Mentor</NavLink></li>
+                <li><NavLink onClick={handleClick}  class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</NavLink></li>
               </ul>
             </li>
           </ul>
