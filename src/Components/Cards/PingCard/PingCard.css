@@ -98,3 +98,11 @@
   background: #fff;
   color: #000;
 }
+.PingCards .img{
+  display: flex;
+  justify-content: center;
+}
+.PingCards img{
+  height: 100px;
+  width: 100px;
+}
