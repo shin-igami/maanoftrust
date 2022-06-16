@@ -7,8 +7,8 @@ const PingCard = () => {
       <div class="card">
       <div class="box">
         <div class="content">
-          <h3>Card One</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+          <div className="img"><img src="" alt="" /></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
           <a href="#">Read More</a>
         </div>
       </div>

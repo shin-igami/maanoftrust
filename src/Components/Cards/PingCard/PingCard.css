@@ -11,7 +11,7 @@
 }
 
 .PingCards .container .card:nth-child(1n) .box .content a {
-  background: #2196f3;
+  background: #0e7e4d;
 }
 
 .PingCards .container .card:nth-child(2n) .box .content a {
@@ -28,7 +28,7 @@
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #b2d8f4;
+  background: #ff9f5f;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgb(255 255 255 / 28%);
+  background: rgb(255 255 255 / 18%);
 }
 
 .PingCards .container .card .box .content {
@@ -78,6 +78,7 @@
   color: rgba(0, 0, 0, 0.9);
   z-index: 1;
   transition: 0.5s;
+  font-weight: 700
 }
 
 .PingCards .container .card .box .content a {
