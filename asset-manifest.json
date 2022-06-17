@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ffb2369.css",
-    "main.js": "/static/js/main.6c6c15e8.js",
+    "main.css": "/static/css/main.2dff6083.css",
+    "main.js": "/static/js/main.ba6b1e16.js",
     "static/media/MANOFF 3D  LOGO 26-11-21 PNG.png": "/static/media/MANOFF 3D  LOGO 26-11-21 PNG.146a40a8cc71b498f15b.png",
     "static/media/bottomlogo.png": "/static/media/bottomlogo.146a40a8cc71b498f15b.png",
-    "static/media/AboutUs.jpg": "/static/media/AboutUs.5beac88c21059e42595e.jpg",
+    "static/media/FocusCentre.jpg": "/static/media/FocusCentre.b8fd46e5ed2e47ecc765.jpg",
+    "static/media/AboutUs1.jpg": "/static/media/AboutUs1.fab3ccf19a232d9b122b.jpg",
+    "static/media/OurTeam1.jpg": "/static/media/OurTeam1.4ecd353d2c2accd276bd.jpg",
+    "static/media/Diversity1.jpg": "/static/media/Diversity1.3e18a65e131b87c9b725.jpg",
+    "static/media/CreateImpact1.jpg": "/static/media/CreateImpact1.4e4ed17a468be5efdb9d.jpg",
+    "static/media/Mentor1.jpg": "/static/media/Mentor1.859966864cdfac104d78.jpg",
+    "static/media/CurrentProgram.jpg": "/static/media/CurrentProgram.b1b41142c3817ed61724.jpg",
     "static/media/Contact_job.jpg": "/static/media/Contact_job.62dca77bc5c08394421a.jpg",
     "static/media/Contact_Us.jpg": "/static/media/Contact_Us.8f661a06c8f4487b95d2.jpg",
-    "static/media/OurTeam.jpg": "/static/media/OurTeam.5aa23aa9bff4d98f6119.jpg",
-    "static/media/CreateImpact.jpg": "/static/media/CreateImpact.b0d59ceae9ea5a28cc8a.jpg",
     "static/media/Mentor.jpg": "/static/media/Mentor.1ea448fa8d81ec86100a.jpg",
+    "static/media/BecomeMentor.jpg": "/static/media/BecomeMentor.b51e97b78edd6bd48dc1.jpg",
     "static/media/Partner.jpg": "/static/media/Partner.a2e0144328b8b8441613.jpg",
+    "static/media/student.png": "/static/media/student.930c0ff3d9a152aa517b.png",
     "index.html": "/index.html",
-    "main.6ffb2369.css.map": "/static/css/main.6ffb2369.css.map",
-    "main.6c6c15e8.js.map": "/static/js/main.6c6c15e8.js.map"
+    "main.2dff6083.css.map": "/static/css/main.2dff6083.css.map",
+    "main.ba6b1e16.js.map": "/static/js/main.ba6b1e16.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ffb2369.css",
-    "static/js/main.6c6c15e8.js"
+    "static/css/main.2dff6083.css",
+    "static/js/main.ba6b1e16.js"
   ]
 }
