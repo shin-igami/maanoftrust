@@ -1,5 +1,5 @@
 .carousel-item img{
-    height: 360px;
+    height: 480px;
 }
 .btn {
     padding: 5px 10px;
@@ -10,13 +10,15 @@
     transition: all 0.8s;
 }
 .red-btn {
-    background: #ed1b24;
-    border: 2px solid #ed1b24;
-    color: #fff;
+    color: white;
+    background-color: #156eff;  
+    border: none; margin-left: 12px;
+    transition: all 0.7s ease;
 }
 
 .red-btn:hover{
-    background: #1c376c;
-    color: #fff;
-    border-color: #ffffff;
+    color: white;
+    background-color: #3f88ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.7s ease;
 }
