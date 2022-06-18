@@ -50,6 +50,7 @@
 }
 #twiter:hover {
     color: #00acee;
+   
 }
 #facebook:hover{
     color: #4267B2;
@@ -58,7 +59,8 @@
     color: #E1306C;
 }
 #googleplus:hover{
-    color:  #db4a39;
+      
+      color:  #db4a39;
 }
 #linkdin:hover{
     color:  #0077b5;

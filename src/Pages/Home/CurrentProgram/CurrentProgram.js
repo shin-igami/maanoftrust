@@ -16,8 +16,7 @@ const CurrentProgram = () => {
       <PingCard/>
       <PingCard/>
       <PingCard/>
-      <PingCard/>
-      <PingCard/>
+      
     </div>
     </div>
     </>

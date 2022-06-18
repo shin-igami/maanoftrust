@@ -13,9 +13,7 @@ const ImgCard = () => {
                 <div class="text-container">
                     <h3>A blue bird</h3>
                     <div>
-                        This a demo experiment to skew image container. It looks good.
-                        This a demo experiment to skew image container. It looks good.    This a demo experiment to skew image container. It looks good.
-                        This a demo   This a demo experiment to skew image container. It looks good.
+                    Providing suitable healthcare facilities and crucial medical support through free medical camps in order to achieve better health. 
                     </div>
                 </div>
             </div>
