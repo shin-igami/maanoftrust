@@ -6,7 +6,7 @@ function Navbar() {
   const [val, setVal] = useState("navbox")
   useEffect(() => {
     window.onscroll = function () {
-      if (document.documentElement.scrollTop > 27) {
+      if (document.documentElement.scrollTop > 35) {
         setVal("navbox sticky")
       } else {
         setVal("navbox")
@@ -53,7 +53,7 @@ const handleClick =() =>{
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/creating-impact">Creating Impact</NavLink></li>
-                <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Diversity and inclusion</NavLink></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Diversity </NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -76,7 +76,9 @@ const handleClick =() =>{
                 <li><NavLink onClick={handleClick}  class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</NavLink></li>
               </ul>
             </li>
+            <a href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>
           </ul>
+          
         </div>
       </header>
     </>

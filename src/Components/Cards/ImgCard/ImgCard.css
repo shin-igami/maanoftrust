@@ -5,8 +5,9 @@
   width: 320px;
   height: 440px;
   margin: 25px 20px;
-  }
   
+  }
+
   .img-container {
       height: 230px; 
       width: 200px;
@@ -42,6 +43,12 @@
     margin: -120px 0px 0px 0px;
     line-height: 19px;
     font-size: 14px;
+    transition: all 0.7s ease;
+  }
+  .text-container:hover{
+    box-shadow: rgb(129 199 132 / 25%) 0px 54px 55px, rgb(129 199 132 / 22%) 0px -12px 30px, rgb(129 199 132 / 22%) 0px 4px 6px, rgb(129 199 132 / 27%) 0px 12px 13px, rgb(129 199 132 / 19%) 0px -3px 5px;
+    transition: all 0.7s ease;
+    cursor: pointer;
   }
   
   .text-container h3 {
