@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Crousel.css'
+import crousel1img from '../image/Crousle1.jpg'
 const Crousel = () => {
   return (
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -10,7 +11,7 @@ const Crousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="https://wallpaperaccess.com/full/1579893.jpg" className="d-block w-100" data-bs-interval="4000" alt="..." />
+          <img src={crousel1img} className="d-block w-100" data-bs-interval="4000" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <a href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>

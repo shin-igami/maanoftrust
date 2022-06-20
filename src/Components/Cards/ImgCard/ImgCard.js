@@ -1,19 +1,19 @@
 import React from 'react'
 import './ImgCard.css'
-const ImgCard = () => {
+const ImgCard = (props) => {
     return (
             <div class="a-box">
                 <div class="img-container">
                     <div class="img-inner">
                         <div class="inner-skew">
-                            <img src="https://www.pngall.com/wp-content/uploads/5/Cat-Anime-Girl-PNG-Image.png" />
+                            <img src={props.cardimage} />
                         </div>
                     </div>
                 </div>
                 <div class="text-container">
-                    <h3>A blue bird</h3>
-                    <div>
-                    Providing suitable healthcare facilities and crucial medical support through free medical camps in order to achieve better health. 
+                    <h3>{props.Title}</h3>
+                    <div >
+                   {props.headlines}
                     </div>
                 </div>
             </div>
