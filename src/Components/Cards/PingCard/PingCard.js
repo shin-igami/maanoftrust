@@ -1,7 +1,14 @@
 import React from 'react'
 import "./PingCard.css"
 import DemoPing from '../../../image/student.png'
-const PingCard = () => {
+const PingCard = (props) => {
+  function limitWord(myString){
+  return `${myString
+    .replace(/\s+/g, ' ') // remove extra spaces between words
+    .split(' ')           // split string into array (using spaces as seperator)
+    .splice(0, 10)     // splice the array to the desired word limit
+    .join(' ')}...`;           // join it back into string (using spaces as seperator)
+ }
   return (
   <div className="PingCards">
     <div className="container">
@@ -9,7 +16,8 @@ const PingCard = () => {
       <div class="box">
         <div class="content">
           <div className="img"><img src={DemoPing} alt="" /></div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+          <h4>{props.campgn}</h4>
+          <p>{props.headline}</p>
           <a href="#">Read More</a>
         </div>
       </div>
