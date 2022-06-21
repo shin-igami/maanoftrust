@@ -11,14 +11,21 @@ const CurrentProgram = () => {
 
     <div className='current-programs'>
     <div className="heading">
-    <h1>Currnet Program</h1>
+    <h1>Current Program</h1>
         <p className='text-muted'>We run the following main programs.</p>
     </div>
     <div className='card-coloums'>
-      <PingCard campgn="Scholarship" headline="The main aim of the ...... Scholarship program is to support the brilliant contenders who’re belonging to finically weaker families. " image={edu}/>
-      <PingCard campgn="Health First" headline="The primary focus of the health first is to provide the basic health and social needs of underprivileged sections of the society like poor, women, elderly, children etc." image={health}/>
-      <PingCard campgn="Go Green" headline="Trees help clean the air we breathe, filter the water we drink, and provide habitat to over 80% of the world's terrestrial biodiversity,keeping  it in mind We are running a campaign “Go Green”. " image={green}/>
+      <PingCard campgn="Scholarship" headline="The main aim of the ...... Scholarship program is to support the 
+brilliant contenders who’re belonging to finically weaker families." image={edu}/>
+ <PingCard campgn="Go Green" headline="Trees help clean the air we breathe, filter the water we drink, and 
+provide habitat to over 80% of the world's terrestrial 
+biodiversity,keeping it in mind We are running a campaign “Go 
+Green”." image={green}/>
+      <PingCard campgn="Health First" headline="The primary focus of the health first is to provide the basic health 
+and social needs of underprivileged sections of the society like 
+poor, women, elderly, children etc" image={health}/>
      
+ 
       
     </div>
     </div>

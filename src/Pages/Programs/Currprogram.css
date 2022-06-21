@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.heading{
+  padding-top: 60px;
+}
+.current-programs .card-coloums{
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+  }
+  .currprogram .SmallCard{
+    min-height: 516px;
+  }

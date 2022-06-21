@@ -1,5 +1,6 @@
 import React from 'react'
 import './ImgCard.css'
+import { Link } from 'react-router-dom';
 const ImgCard = (props) => {
     function limitWord(myString){
         return `${myString
@@ -20,9 +21,9 @@ const ImgCard = (props) => {
                 <div class="text-container">
                     <h3>{props.Title}</h3>
                     <div >
-                   {limitWord(props.headlines)}
+                   {props.headlines? limitWord(props.headlines) : props.content}
                     </div>
-                          <a href="#">Read More</a>
+                          <Link className='Link' to="/programs/focus-sectors">Read More</Link>
                 </div>
           
             </div>
