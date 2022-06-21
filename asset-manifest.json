@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccbf8cc3.css",
-    "main.js": "/static/js/main.e40b49d1.js",
+    "main.css": "/static/css/main.86bb1189.css",
+    "main.js": "/static/js/main.d43d0216.js",
     "static/media/plantation.jpg": "/static/media/plantation.d70539fe470ad2dbd578.jpg",
     "static/media/poor-child2.jpg": "/static/media/poor-child2.45bfebeed4ee890fb7ff.jpg",
     "static/media/MANOFF 3D  LOGO 26-11-21 PNG.png": "/static/media/MANOFF 3D  LOGO 26-11-21 PNG.146a40a8cc71b498f15b.png",
@@ -31,11 +31,11 @@
     "static/media/healthcare.jpg": "/static/media/healthcare.3bdb5dc9ba55288756b2.jpg",
     "static/media/Education.jpg": "/static/media/Education.46f7799b4a40a94e71be.jpg",
     "index.html": "/index.html",
-    "main.ccbf8cc3.css.map": "/static/css/main.ccbf8cc3.css.map",
-    "main.e40b49d1.js.map": "/static/js/main.e40b49d1.js.map"
+    "main.86bb1189.css.map": "/static/css/main.86bb1189.css.map",
+    "main.d43d0216.js.map": "/static/js/main.d43d0216.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccbf8cc3.css",
-    "static/js/main.e40b49d1.js"
+    "static/css/main.86bb1189.css",
+    "static/js/main.d43d0216.js"
   ]
 }
