@@ -1,9 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dff6083.css",
-    "main.js": "/static/js/main.ba6b1e16.js",
+    "main.css": "/static/css/main.ccbf8cc3.css",
+    "main.js": "/static/js/main.e40b49d1.js",
+    "static/media/plantation.jpg": "/static/media/plantation.d70539fe470ad2dbd578.jpg",
+    "static/media/poor-child2.jpg": "/static/media/poor-child2.45bfebeed4ee890fb7ff.jpg",
     "static/media/MANOFF 3D  LOGO 26-11-21 PNG.png": "/static/media/MANOFF 3D  LOGO 26-11-21 PNG.146a40a8cc71b498f15b.png",
     "static/media/bottomlogo.png": "/static/media/bottomlogo.146a40a8cc71b498f15b.png",
+    "static/media/crousel-farmer1.jpg": "/static/media/crousel-farmer1.13d77752071a011c1e01.jpg",
+    "static/media/sagil.jpg": "/static/media/sagil.91cb90e27c72898cda6f.jpg",
+    "static/media/Crousle1.jpg": "/static/media/Crousle1.ff89187fde58082bfb0d.jpg",
+    "static/media/mohsin.jpg": "/static/media/mohsin.a8c21163114501707a8a.jpg",
+    "static/media/mamu.jpg": "/static/media/mamu.bea4b6e7017a83d0ae1d.jpg",
+    "static/media/crousel-healthcare.jpg": "/static/media/crousel-healthcare.b033b63568c647572a95.jpg",
     "static/media/FocusCentre.jpg": "/static/media/FocusCentre.b8fd46e5ed2e47ecc765.jpg",
     "static/media/AboutUs1.jpg": "/static/media/AboutUs1.fab3ccf19a232d9b122b.jpg",
     "static/media/OurTeam1.jpg": "/static/media/OurTeam1.4ecd353d2c2accd276bd.jpg",
@@ -16,13 +24,18 @@
     "static/media/Mentor.jpg": "/static/media/Mentor.1ea448fa8d81ec86100a.jpg",
     "static/media/BecomeMentor.jpg": "/static/media/BecomeMentor.b51e97b78edd6bd48dc1.jpg",
     "static/media/Partner.jpg": "/static/media/Partner.a2e0144328b8b8441613.jpg",
+    "static/media/poor-child1.jpg": "/static/media/poor-child1.b2a6666973c3f00c64ed.jpg",
     "static/media/student.png": "/static/media/student.930c0ff3d9a152aa517b.png",
+    "static/media/first-aid-kit.png": "/static/media/first-aid-kit.e4c5d9f396fb8a193bcd.png",
+    "static/media/save-the-planet.png": "/static/media/save-the-planet.0dfc20a38150ca088c2a.png",
+    "static/media/healthcare.jpg": "/static/media/healthcare.3bdb5dc9ba55288756b2.jpg",
+    "static/media/Education.jpg": "/static/media/Education.46f7799b4a40a94e71be.jpg",
     "index.html": "/index.html",
-    "main.2dff6083.css.map": "/static/css/main.2dff6083.css.map",
-    "main.ba6b1e16.js.map": "/static/js/main.ba6b1e16.js.map"
+    "main.ccbf8cc3.css.map": "/static/css/main.ccbf8cc3.css.map",
+    "main.e40b49d1.js.map": "/static/js/main.e40b49d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dff6083.css",
-    "static/js/main.ba6b1e16.js"
+    "static/css/main.ccbf8cc3.css",
+    "static/js/main.e40b49d1.js"
   ]
 }
