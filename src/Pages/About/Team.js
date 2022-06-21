@@ -4,33 +4,21 @@ import './Team.css'
 import "../../Components/Cards/Headingimage/Headingimage.css"
 import Headingimage from '../../Components/Cards/Headingimage/Headingimage'
 import OurTeamimage from '../../image/OurTeam1.jpg'
+import image1 from '../../image/mamu.jpg'
+import image2 from '../../image/sagil.jpg'
+import image3 from '../../image/mohsin.jpg'
 const Team = () => {
   
   return (<>
             <Headingimage cardimg={OurTeamimage} Title="Our Team" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
             
     <div className='Team'>
-        <h1>Board of Directors</h1>
+        <h1>Directors</h1>
              <section class="hero-section">
             
                 <div class="card-grid">
                  
-                    <PersonCard/>
-                    <PersonCard/>
-                    <PersonCard/>
-                    <PersonCard/>
-                </div>
-                </section>
-        
-        <h1>Leadership Team</h1>
-             <section class="hero-section">
-            
-                <div class="card-grid">
-                 
-                    <PersonCard/>
-                    <PersonCard/>
-                    <PersonCard/>
-                    
+                    <PersonCard name="MD Akhlaque Aslam" about="Director" image={image1}/>
                 </div>
                 </section>
         
@@ -39,11 +27,9 @@ const Team = () => {
             
                 <div class="card-grid">
                  
-                    <PersonCard/>
-                    <PersonCard/>
-                    <PersonCard/>
-                    <PersonCard/>
-                    <PersonCard/>
+                    <PersonCard name="MD Sagil Faraz" about="Management Head" image={image2}/>
+                    <PersonCard name="MD Mohsin Raza" about="Technical Head" image={image3}/>
+                   
                 </div>
                 </section>
         

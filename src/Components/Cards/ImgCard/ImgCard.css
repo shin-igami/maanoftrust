@@ -19,7 +19,7 @@
   .img-container img {
       transform: skew(0deg, -13deg);
       height: 250px;
-      margin: -35px 0px 0px -70px;
+      margin: -35px 0px 0px -94px;
   }
   
   .inner-skew {
@@ -55,6 +55,24 @@
     margin: 20px 0px 10px 0px;
     color: #04bcff;
     font-size: 18px;
+  }
+  .text-container a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    background-color: #156eff;  
+  }
+  .text-container a:hover{
+    background-color: #3f88ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.7s ease;
   }
   @media (max-width:450px) {
     .a-box{

@@ -6,7 +6,7 @@ const PingCard = (props) => {
   return `${myString
     .replace(/\s+/g, ' ') // remove extra spaces between words
     .split(' ')           // split string into array (using spaces as seperator)
-    .splice(0, 10)     // splice the array to the desired word limit
+    .splice(0, 20)     // splice the array to the desired word limit
     .join(' ')}...`;           // join it back into string (using spaces as seperator)
  }
   return (
@@ -15,9 +15,9 @@ const PingCard = (props) => {
       <div class="card">
       <div class="box">
         <div class="content">
-          <div className="img"><img src={DemoPing} alt="" /></div>
+          <div className="img"><img src={props.image} alt="" /></div>
           <h4>{props.campgn}</h4>
-          <p>{props.headline}</p>
+          <p>{limitWord(props.headline)}</p>
           <a href="#">Read More</a>
         </div>
       </div>
