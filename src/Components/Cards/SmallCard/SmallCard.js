@@ -1,11 +1,11 @@
 import React from 'react'
 import './SmallCard.css'
-const SmallCard = () => {
+const SmallCard = (props) => {
   return (
       <div class="SmallCard">
-        <h2>Team Builder</h2>
-        <p>Scans our talent network to create the optimal team for your project</p>
-        <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="" />
+        <h2>{props.campgn}</h2>
+        <p>{props.headline}</p>
+        <img src={props.image} alt="" />
       </div>
  
   )

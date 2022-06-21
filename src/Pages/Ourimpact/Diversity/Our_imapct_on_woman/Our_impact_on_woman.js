@@ -3,6 +3,7 @@ import './woman.css'
 import CountUp from 'react-countup';
 import girleducation from '../../../../image/girleducation.png'
 import pregnantwoman from '../../../../image/pregnant.png'
+import womanemploy from '../../../../image/Womanemployee.png'
 function Our_impact_on_woman() {
   return (
     <>
@@ -17,7 +18,7 @@ function Our_impact_on_woman() {
           <img src={girleducation} alt="" />
           </div>
           <div className="score">
-           <CountUp end={454} duration={4} />
+           <CountUp end={104} duration={4} />
           </div>
           <div className="story">
           Girls Sent to School
@@ -28,7 +29,7 @@ function Our_impact_on_woman() {
           <img src={pregnantwoman} alt="" />
           </div>
           <div className="score">
-           <CountUp end={549} duration={4}/>
+           <CountUp end={81} duration={4}/>
           </div>
           <div className="story">
           pregnant women monitored
@@ -36,13 +37,13 @@ function Our_impact_on_woman() {
         </div>
         <div className="innercard">
           <div className="image">
-          <img src={girleducation} alt="" />
+          <img src={womanemploy} alt="" />
           </div>
           <div className="score">
-          <CountUp end={645} duration={4}/>
+          <CountUp end={45} duration={4}/>
           </div>
           <div className="story">
-          livlihood created for the woman 
+          Woman Employed
           </div>
         </div>
         

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./PingCard.css"
 import DemoPing from '../../../image/student.png'
+import { Link } from 'react-router-dom';
 const PingCard = (props) => {
   function limitWord(myString){
   return `${myString
@@ -18,7 +19,7 @@ const PingCard = (props) => {
           <div className="img"><img src={props.image} alt="" /></div>
           <h4>{props.campgn}</h4>
           <p>{limitWord(props.headline)}</p>
-          <a href="#">Read More</a>
+          <Link className='Link' to="/programs/current-programs">Read More</Link>
         </div>
       </div>
     </div>

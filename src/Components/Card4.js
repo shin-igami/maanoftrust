@@ -1,22 +1,19 @@
 import React from 'react'
 import "../Styles/Card4.css";
 
-const cardimage = require('../image/cardimg.jpg')
 
 
-function Card4() {
 
-  // const divStyle = {
-  //     width: '20rem',
-  //     margin: '0 45px'
-  //   };
+function Card4(props) {
+
+ 
   return (
     <>
         <div className="card divstyle card-coloums">
-          <img src={cardimage} className="card-img-top" alt="..." />
+          <img src={props.cardimage} className="card-img-top" alt="..." />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 className="card-title">{props.Title}</h5>
+            <p className="card-text">{props.content}</p>
             <a href="/" className="btn btn-dark">Go somewhere</a>
           </div>
         </div>

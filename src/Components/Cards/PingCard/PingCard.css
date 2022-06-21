@@ -10,7 +10,7 @@
   transition: 0.5s;
 }
 
-.PingCards .container .card:nth-child(1n) .box .content a {
+.PingCards .container .card:nth-child(1n) .box .content .Link {
   background: #08ad5d;
 }
 
@@ -81,7 +81,7 @@
   transition: 0.5s;
 }
 
-.PingCards .container .card .box .content a {
+.PingCards .container .card .box .content .Link {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
@@ -93,7 +93,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
-.PingCards .container .card .box .content a:hover {
+.PingCards .container .card .box .content .Link:hover {
   background: #06d471;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

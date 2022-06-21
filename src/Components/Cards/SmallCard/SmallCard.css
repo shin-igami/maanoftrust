@@ -24,9 +24,10 @@
 .SmallCard p {
     color: var(--grayishBlue);
 }
-.SmallCard .img {
-    float: right;
-}
+.SmallCard img{
+    height: 100px;
+    width: 100px;
+  }
 .SmallCard .h2 {
     color: var(--varyDarkBlue);
     font-weight: var(--weight3);
