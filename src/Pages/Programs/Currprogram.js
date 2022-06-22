@@ -11,7 +11,7 @@ import './Currprogram.css'
 function Currprogram() {
   return (
     <div className='currprogram'>
-      <Headingimage cardimg={Currentprogramimg} Title="Current program" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time." />
+      <Headingimage cardimg={Currentprogramimg} Title="Current program" story=" From Our focus sector, we are running programs that help in social development." />
 
       <div className='current-programs'>
         <div className="heading">

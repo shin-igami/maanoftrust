@@ -7,7 +7,7 @@ import partner from '../../image/Partner.jpg'
 const BeacomePartner = () => {
   return (
   <>
-       <Headingimage cardimg={partner} Title="Become Partner" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+       <Headingimage cardimg={partner} Title="Become Partner" story="Alone we can do so little together we can do so much."/>
        <FormCards/>
   </>
     

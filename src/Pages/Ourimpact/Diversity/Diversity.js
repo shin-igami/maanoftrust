@@ -14,7 +14,7 @@ function Diversity() {
   return (
    
     <>
-    <Headingimage cardimg={DiversityImage} Title="Diversity" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+    <Headingimage cardimg={DiversityImage} Title="Empower her" story="God is within her; she will not fall."/>
     <Our_impact_on_woman/>
    
     </>

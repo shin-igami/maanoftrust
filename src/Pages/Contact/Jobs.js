@@ -6,7 +6,7 @@ import contactjobimg from '../../image/Contact_job.jpg'
 const Jobs = () => {
   return (
     <>
-             <Headingimage cardimg={contactjobimg} Title="Jobs" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+             <Headingimage cardimg={contactjobimg} Title="Jobs" story="We look for people who are enthusiastic and motivated to be part of our Organization."/>
              <FormCards/>
     </>
     
