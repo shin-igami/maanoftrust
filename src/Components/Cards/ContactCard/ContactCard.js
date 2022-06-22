@@ -24,11 +24,13 @@ const ContactCard = () => {
 						<img src="img/ellipse1.png" class="img1" alt="" />
 						<h2>Address</h2>
 						<div class="bull">
-							<p>Maanof</p>
+							<p>Maanof Federation</p>
 
-							<p>Shaheen Bagh,New Delhi</p>
+							<p>
+							H.NO 165-A,F/F Sarai Jullena N.F Colony, Delhi, South Delhi, 
+							Delhi, India, 110025</p>
 
-							<p>1234567890</p>
+							<p>9599380707</p>
 						</div>
 						<div class="soc">
 							<p>follow us </p>
@@ -42,7 +44,7 @@ const ContactCard = () => {
 						</div>
 					</div>
 					<div class="right-col">
-						<h2>Subscribe to Our Newsletter</h2>
+						<h2>Request a Callback</h2>
 						<form onSubmit={sendEmail}>
 							<div class="result"></div>
 							<div class="form-group">

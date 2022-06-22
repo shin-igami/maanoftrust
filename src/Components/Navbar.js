@@ -76,7 +76,7 @@ const handleClick =() =>{
                 <li><NavLink onClick={handleClick}  class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</NavLink></li>
               </ul>
             </li>
-            <a href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>
+            <a target="__blank" href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>
           </ul>
           
         </div>

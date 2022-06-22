@@ -21,7 +21,7 @@ const FormCards = () => {
                 <div class="form">
 
                     <div class="right-col left" >
-                        <h2>Subscribe to Our Newsletter</h2>
+                        <h2>Partner with Us</h2>
 
                         <div class="result"></div>
                         <div class="form-group">
@@ -45,10 +45,10 @@ const FormCards = () => {
                         <div class="form-group">
                             <input id="name" type="text" placeholder="Organisation" />
                         </div>
-
+{/* 
                         <div class="form-group">
                             <input id="email" type="email" placeholder="Designation" />
-                        </div>
+                        </div> */}
 
                         <div class="form-group">
                             <input id="message" type="text" placeholder="Any Further Detail" />
