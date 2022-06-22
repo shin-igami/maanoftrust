@@ -19,10 +19,10 @@ function Headingimage(props){
     <div className="Texts" align="left"> 
      {/* <img src={cardimage} alt="" /> */}
         <div className="Title"> 
-           {props.Title}
+          <h1> {props.Title}</h1>
         </div>
         <div className="para">
-            {props.story}
+          <p>{props.story}</p>
         </div>
     </div>
 

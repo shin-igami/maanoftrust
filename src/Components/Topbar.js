@@ -15,7 +15,9 @@ function Topbar() {
    </div>
    <div className="phone">
      
-   <i className="fa-solid fa-phone"></i>    +919599380707
+
+   <i className="fa-solid fa-phone"></i>    9599380707
+
     
    </div>
 

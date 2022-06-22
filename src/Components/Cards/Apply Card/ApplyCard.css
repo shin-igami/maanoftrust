@@ -22,12 +22,15 @@
     border-radius: 15px;
     text-align: left;
     display: flex;
-   
+   justify-content: space-between;
 }
 .apply-card p {
     color: var(--grayishBlue);
 }
 .apply-card .content{
+    display: flex;
+}
+.apply-card .text-content{
     margin: 0px 35px;
 }
 .apply-card img{
@@ -50,7 +53,7 @@
     margin-top: 30px;
     height: 45px;
     display: flex;
-    float: right;
+    
   }
 .apply-card .Link:hover {
     background: #06d471;

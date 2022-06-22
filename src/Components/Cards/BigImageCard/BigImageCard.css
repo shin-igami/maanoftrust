@@ -32,6 +32,9 @@
     padding: 17px;
     border-radius: 29px;
 }
+.BigImageCard .text-content .section-2 .special-section{
+    font-size: 1.15rem;
+}
 @media (max-width:850px) {
     .BigImageCard .text-content{
     flex-direction: column;

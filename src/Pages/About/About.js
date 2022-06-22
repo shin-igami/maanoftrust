@@ -11,7 +11,7 @@ const About = () => {
  
   return (
     <>  
-    <Headingimage cardimg={Aboutus} Title="About Us" story="What we do and how we are so good at it...ldjalj lajfklla ljaflkjkl aljflkalal lfkajlj fakjl lajflk jaljkljflklaflk afkl faljlkfaa flllafjlkjal ldfjsla lkafjlkjafl ajlfa!"/>
+    <Headingimage cardimg={Aboutus} Title="About Us" story="What we do and how we are so good at it.."/>
     <Intro/>
     <OurValues/>
     <Our_story/>

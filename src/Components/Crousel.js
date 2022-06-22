@@ -16,7 +16,7 @@ const Crousel = () => {
           <img src={crousel1img} className="d-block w-100" data-bs-interval="4000" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>First slide label</h5> */}
-            <a href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>
+            <a target="__blank"  href="https://rzp.io/l/CcCG1qOV3" className="btn red-btn" >Donate Now</a>
           </div>
         </div>
         <div className="carousel-item">
