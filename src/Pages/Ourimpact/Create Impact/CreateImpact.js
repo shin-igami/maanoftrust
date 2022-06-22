@@ -6,7 +6,7 @@ import creatingimpactimg from '../../../image/CreateImpact1.jpg'
 const CreateImpact = () => {
   return (
      <>
-          <Headingimage cardimg={creatingimpactimg} Title="Our Impact" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+          <Headingimage cardimg={creatingimpactimg} Title="Our Impact" story="A life is not important except in the impact it has on other lives. "/>
     <div className='CreateImpact'>
           <div className="heading">
         <h1>The Business Value of Impact</h1>

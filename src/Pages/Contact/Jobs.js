@@ -3,14 +3,18 @@ import ApplyCard from '../../Components/Cards/Apply Card/ApplyCard'
 import FormCards from '../../Components/Cards/FormCards/FormCards'
 import Headingimage from '../../Components/Cards/Headingimage/Headingimage'
 import contactjobimg from '../../image/Contact_job.jpg'
-import student from '../../image/student.png'
+import monitor from '../../image/monitor.png'
+import user from '../../image/user.png'
+
 const Jobs = () => {
   return (
     <>
-             <Headingimage cardimg={contactjobimg} Title="Jobs" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
-             <ApplyCard image={student} title="Apply Here" description="lorem jjiuuy hgiuhyui hiuhiu hihih hiuhiuh ihjih iuh iuhiuh ihi hiuh iuh iuhiuhiuhi iuhi hih iuh iu hi hi hi hi uh ih iuhiuhiuhuih u hjgjhg uyguguy yuygtuyg yguy"/>
-             <ApplyCard image={student} title="Apply Here" description="lorem jjiuuy hgiuhyui hiuhiu hihih hiuhiuh ihjih iuh iuhiuh ihi hiuh iuh iuhiuhiuhi iuhi hih iuh iu hi hi hi hi uh ih iuhiuhiuhuih u hjgjhg uyguguy yuygtuyg yguy"/>
-             <ApplyCard image={student} title="Apply Here" description="lorem jjiuuy hgiuhyui hiuhiu hihih hiuhiuh ihjih iuh iuhiuh ihi hiuh iuh iuhiuhiuhi iuhi hih iuh iu hi hi hi hi uh ih iuhiuhiuhuih u hjgjhg uyguguy yuygtuyg yguy"/>
+
+             <Headingimage cardimg={contactjobimg} Title="Jobs" story="We look for people who are enthusiastic and motivated to be part of our Organization."/>
+             <ApplyCard image={monitor} title="IT Sector" description="An IT sector with some experience in developing App or Web."/>
+             <ApplyCard image={user} title="Customer Care Executive" description="We are looking for a customer care executive who has good communication skills and is comfortable in both Hindi and English."/>
+        
+
     </>
     
   )

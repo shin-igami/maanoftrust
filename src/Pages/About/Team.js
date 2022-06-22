@@ -10,7 +10,7 @@ import image3 from '../../image/mohsin.jpg'
 const Team = () => {
   
   return (<>
-            <Headingimage cardimg={OurTeamimage} Title="Our Team" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+            <Headingimage cardimg={OurTeamimage} Title="Our Team" story="We are led by young energetic team who are willing to give their 100% for the organisation."/>
             
     <div className='Team'>
         <h1>Directors</h1>

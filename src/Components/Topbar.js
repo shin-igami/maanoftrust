@@ -20,11 +20,11 @@ function Topbar() {
    </div>
 
    <div className="socialmedia">
-     <a href="https://twitter.com" target="_blank"><i className="fa-brands fa-twitter" id="twiter"></i></a>
-     <a href="https://twitter.com"><i className="fa-brands fa-facebook-f" id="facebook"></i></a>
-     <a href="https://twitter.com"><i className="fa-brands fa-instagram" id="insta"></i></a>
-     <a href="https://twitter.com"><i className="fa-brands fa-youtube" id="youtube"></i></a>
-     <a href="https://twitter.com"><i className="fa-brands fa-linkedin-in" id="linkdin"></i></a>
+     <a href="https://twitter.com/MAANOF22" target="_blank"><i className="fa-brands fa-twitter" id="twiter"></i></a>
+     <a href="https://twitter.com"  target="_blank"><i className="fa-brands fa-facebook-f" id="facebook"></i></a>
+     <a href="https://www.instagram.com/maanof22/"  target="_blank" ><i className="fa-brands fa-instagram" id="insta"></i></a>
+     <a href="https://www.youtube.com/channel/UC25RXBGG9Qp22sLnO6jS5ug"  target="_blank" ><i className="fa-brands fa-youtube" id="youtube"></i></a>
+     <a href="https://www.linkedin.com/company/maanof-federation/?viewAsMember=true"  target="_blank"><i className="fa-brands fa-linkedin-in" id="linkdin"></i></a>
      
 
    

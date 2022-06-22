@@ -110,8 +110,15 @@
 .ContactCard .left-col .soc{
     margin: 100px 0 0;
 }
+.ContactCard .left-col .soc ul{
+    padding: 0px 20px;  
+}
 .ContactCard .left-col .soc a i{
     transition: 0.5s;   
+}
+.ContactCard .left-col .soc a {
+    text-decoration: none;  
+    padding: 10px;
 }
 .ContactCard .left-col .soc a i:hover{
     transition: 0.5s;

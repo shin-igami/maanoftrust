@@ -53,7 +53,7 @@ const handleClick =() =>{
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/creating-impact">Creating Impact</NavLink></li>
-                <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Diversity </NavLink></li>
+                <li><NavLink onClick={handleClick} class="dropdown-item" to="/impact/Diversity">Empower her </NavLink></li>
               </ul>
             </li>
             <li class="nav-item dropdown">

@@ -6,7 +6,7 @@ import contactus from '../../image/Contact_Us.jpg'
 const Contact = () => {
   return (
     <>
-         <Headingimage cardimg={contactus} Title="Contact Us" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+         <Headingimage cardimg={contactus} Title="Contact Us" story="We Would love to talk to you about any of the service that we offer."/>
          <ContactCard/>
 
     </>
