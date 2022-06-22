@@ -42,8 +42,8 @@ const handleClick =() =>{
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/about-maanof">About Maanof</NavLink></li>
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/team">Team</NavLink></li>
-
-                <li><NavLink onClick={handleClick} class="dropdown-item" to="/mentors">Mentors</NavLink></li>
+  
+                {/* <li><NavLink onClick={handleClick} class="dropdown-item" to="/mentors">Mentors</NavLink></li> */}
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -72,7 +72,7 @@ const handleClick =() =>{
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/contact-us">Contact Us</NavLink></li>
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/jobs">Jobs</NavLink></li>
-                <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/become-a-mentor">Become A Mentor</NavLink></li>
+                {/* <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/become-a-mentor">Become A Mentor</NavLink></li> */}
                 <li><NavLink onClick={handleClick}  class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</NavLink></li>
               </ul>
             </li>

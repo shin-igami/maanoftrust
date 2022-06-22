@@ -23,7 +23,7 @@ function Topbar() {
      <a href="https://twitter.com" target="_blank"><i className="fa-brands fa-twitter" id="twiter"></i></a>
      <a href="https://twitter.com"><i className="fa-brands fa-facebook-f" id="facebook"></i></a>
      <a href="https://twitter.com"><i className="fa-brands fa-instagram" id="insta"></i></a>
-     <a href="https://twitter.com"><i className="fa-brands fa-google-plus-g" id="googleplus"></i></a>
+     <a href="https://twitter.com"><i className="fa-brands fa-youtube" id="youtube"></i></a>
      <a href="https://twitter.com"><i className="fa-brands fa-linkedin-in" id="linkdin"></i></a>
      
 

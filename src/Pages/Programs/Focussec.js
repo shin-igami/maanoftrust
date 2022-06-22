@@ -12,7 +12,7 @@ function Focussec() {
   return (
 
     <div className='focussec'>
-    <Headingimage cardimg={Focussectorimg} Title="Diversity" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
+    <Headingimage cardimg={Focussectorimg} Title="Focus Sector" story="We have refined and perfected our incubation model to help take our enterprises to market in the shortest possible time."/>
 
     <div className='FocusSectors'>
     <div className="heading">
