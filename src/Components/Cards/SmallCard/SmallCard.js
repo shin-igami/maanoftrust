@@ -6,6 +6,7 @@ const SmallCard = (props) => {
         <h2>{props.campgn}</h2>
         <p>{props.headline}</p>
         <img src={props.image} alt="" />
+       
       </div>
  
   )

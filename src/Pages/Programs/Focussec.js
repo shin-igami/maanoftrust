@@ -17,7 +17,7 @@ function Focussec() {
     <div className='FocusSectors'>
     <div className="heading">
     <h1>Focus Sectors</h1>
-        <h4 className='text-muted'>We run the following man programs.</h4>
+        <h4 className='text-muted'>Till Now, We are focusing on these sectors.</h4>
     </div>
     <div className='Container card-coloums'>
       

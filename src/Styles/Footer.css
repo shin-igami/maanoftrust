@@ -3,6 +3,10 @@
     color: #fff;
     text-decoration: none;
   }
+  .footer .link {
+    color: #fff;
+    text-decoration: none;
+  }
   .footer .page-footer {
     font-family: 'Roboto', sans-serif;
     
@@ -51,7 +55,14 @@
     color: rgb(130, 130, 130);
     text-decoration: none;
   }
+  .footer-content-column ul li .link {
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+  }
   .footer-content-column ul li a:hover{
+    color: #ed1b24;
+  }
+  .footer-content-column ul li .link:hover{
     color: #ed1b24;
   }
   .footer-logo-link {
@@ -199,7 +210,25 @@
   }
   
   
-  
+#footer-twitter{
+    color: #00acee;
+    margin-left: 3px;
+  }
+  #footer-facebook{
+    color: #4267B2;
+    font-size: 1.8rem;
+    margin-left: 3px;
+  }
+  #footer-insta{
+    color: #E1306C;
+    font-size: 1.4rem;
+    margin-left: 1px;
+  }
+  #footer-youtube{
+    color: #FF0000;
+    font-size: 1.3rem;
+    margin-left: 5px;
+  }
   
   
   

@@ -9,7 +9,7 @@ const FocusSectors = () => {
       <div className='FocusSectors'>
     <div className="heading">
     <h1>Focus Sectors</h1>
-        <p className='text-muted'>We run the following main programs.</p>
+        <p className='text-muted'>Till Now, We are focusing on these sectors.</p>
     </div>
     <div className='Container card-coloums'>
         <ImgCard  cardimage={Educationimg} Title="Education" headlines="Encouraging and supporting  underprivlegd children to  help them become the leaders and changemakers of the future."/>

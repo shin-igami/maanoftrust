@@ -12,9 +12,9 @@ const MoreMaanof = () => {
     
     <div className="outercard">
         
-      <Card4 cardimage={hiringimg} Title="Hiring" content="We are looking for a customer care executive who has good communication skills and is comfortable in both Hindi and English."/>
-      <Card4 cardimage={becommember} Title="Become a Member" content="We are looking for a customer care executive who has good communication skills and is comfortable in both Hindi and English."/>
-      <Card4 cardimage={ideas} Title="Share your ideas" content="if you have any idea which can help us to support the needy  you can share it with us, you can call us or write a mail to us."/>
+      <Card4 cardimage={hiringimg} Title="Hiring" content="We are looking for a customer care executive who has good communication skills and is comfortable in both Hindi and English." link="/contact/jobs"/>
+      <Card4 cardimage={becommember} Title="Become a Member" content="We are looking for a customer care executive who has good communication skills and is comfortable in both Hindi and English." link="/contact/partnerwith-us"/>
+      <Card4 cardimage={ideas} Title="Share your ideas" content="if you have any idea which can help us to support the needy  you can share it with us, you can call us or write a mail to us." link="/contact/contact-us"/>
       
      
     </div>
