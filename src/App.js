@@ -18,6 +18,7 @@ import FocusSectors from './Pages/Home/FocusSectors/FocusSectors';
 import CurrentProgram from './Pages/Home/CurrentProgram/CurrentProgram';
 import Focussec from './Pages/Programs/Focussec';
 import Currprogram from './Pages/Programs/Currprogram';
+import Modalprivacy from './Components/Cards/Modalprivacy';
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <Topbar />
       <Navbar />
+      <Modalprivacy/>
 
 
       <Routes>

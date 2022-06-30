@@ -108,7 +108,7 @@ const Footer = () => {
         <div className="footer-copyright">
           <div className="footer-copyright-wrapper">
             <p className="footer-copyright-text">
-              <Link  className="footer-copyright-link link" to="" target="_self"> ©2020. | MAANOF | All rights reserved. </Link>
+              <Link  className="footer-copyright-link link" to="" target="_self"> ©2020. | MAANOF | All rights reserved. | Privac Policy</Link>
             </p>
           </div>
         </div>
