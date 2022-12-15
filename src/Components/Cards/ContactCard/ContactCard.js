@@ -6,7 +6,7 @@ const ContactCard = () => {
 	const navigate = useNavigate();
 	const sendEmail = (e) => {
 		e.preventDefault();
-		emailJs.sendForm('service_l018gtr', 'template_79gb27c', e.target,
+		emailJs.sendForm('service_pn7vgo9', 'template_79gb27c', e.target,
 			'6u4r4hVtftEcMQbx2').then(res => {
 				console.log(res);
 				alert("Submitted Successfully")
