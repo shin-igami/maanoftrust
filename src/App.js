@@ -27,9 +27,8 @@ function App() {
     <div className="App">
       <Topbar />
       <Navbar />
-      <Modalprivacy/>
-
-
+     
+  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-maanof" element={<About />} />
@@ -45,7 +44,7 @@ function App() {
         <Route path="/contact/partnerwith-us" element={<BeacomePartner />} />
       </Routes>
       <Footer />
-
+     
     </div>
   );
 }

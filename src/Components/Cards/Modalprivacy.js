@@ -3,7 +3,10 @@ import React from 'react'
 function Modalprivacy() {
   return (
     <>
-   <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{
+   "background":"black",
+   "color":"white"}}
+   >
   Privacy Policy
 </div >
 
