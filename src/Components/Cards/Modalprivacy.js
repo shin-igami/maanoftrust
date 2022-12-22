@@ -3,15 +3,14 @@ import React from 'react'
 function Modalprivacy() {
   return (
     <div style={{
-      "background":"black",
-      "display" : "inline",
-      "width" : "33.4%"
+      "background":"black"
+   
+    
   }}>
    <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{
    "background":"black",
-   "color":"white",
-    "display" : "inline",
-    "width" : "33.4%"
+   "color":"white"
+ 
   }}
    >
   Privacy Policy
