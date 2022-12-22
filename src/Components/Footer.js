@@ -3,6 +3,8 @@ import '../Styles/Footer.css'
 import Logo from '../image/MANOFF 3D  LOGO 26-11-21 PNG.png'
 import { Link } from 'react-router-dom';
 import Modalprivacy from './Cards/Modalprivacy';
+import TermModal from './Cards/TermModal';
+import RefundModal from './Cards/RefundModal';
 const Footer = () => {
   return (
     
@@ -116,8 +118,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <Modalprivacy/>
-    </div>
+  <Modalprivacy/>  <TermModal/>  <RefundModal/></div>
+
   )
 }
 
