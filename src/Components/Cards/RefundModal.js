@@ -3,21 +3,19 @@ import React from 'react'
 function RefundModal() {
   return (
     <div style={{
-        "background":"black",
-        "display" : "inline",
-        "width" : "33%"
+        "background":"black"
+     
     }}>
-     <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{
+     <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" style={{
      "background":"black",
-     "color":"white",
-      "display" : "inline",
-      "width" : "33%"
+     "color":"white"
+    
     }}
      >
 Donation Refund Policy
 </div >
 
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">

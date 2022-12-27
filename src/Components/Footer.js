@@ -118,11 +118,14 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div>
-      <Modalprivacy/>  <TermModal/>  <RefundModal/>
-      </div>
+<div style={{
+  "display":"flex",
+  "justify-content":"space-around",
+  "background":"black"
+}}>
+<Modalprivacy/>  <TermModal/>  <RefundModal/>
+</div>
   </div>
-
   )
 }
 
