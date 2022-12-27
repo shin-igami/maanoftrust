@@ -118,7 +118,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-  <Modalprivacy/>  <TermModal/>  <RefundModal/></div>
+      <div>
+      <Modalprivacy/>  <TermModal/>  <RefundModal/>
+      </div>
+  </div>
 
   )
 }

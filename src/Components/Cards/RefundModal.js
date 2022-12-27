@@ -7,7 +7,7 @@ function RefundModal() {
         "display" : "inline",
         "width" : "33%"
     }}>
-     <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{
+     <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{
      "background":"black",
      "color":"white",
       "display" : "inline",
@@ -17,11 +17,11 @@ function RefundModal() {
 Donation Refund Policy
 </div >
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="exampleModalLabel">Privacy Policy Maanof-Federation</h4>
+        <h4 class="modal-title" id="exampleModalLabel">Donation Refund Policy Maanof-Federation</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style={{
