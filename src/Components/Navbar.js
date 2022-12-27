@@ -67,11 +67,11 @@ const handleClick =() =>{
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Contact US
+                Contact Us
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/contact-us">Contact Us</NavLink></li>
-                <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/jobs">Jobs</NavLink></li>
+                {/* <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/jobs">Jobs</NavLink></li> */}
                 {/* <li><NavLink onClick={handleClick} class="dropdown-item" to="/contact/become-a-mentor">Become A Mentor</NavLink></li> */}
                 <li><NavLink onClick={handleClick}  class="dropdown-item" to="/contact/partnerwith-us">Partner With Us</NavLink></li>
               </ul>
