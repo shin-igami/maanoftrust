@@ -69,7 +69,7 @@ const Footer = () => {
                   <Link className="link" rel="noopener noreferrer" to="/contact/contact-us">Contact Us</Link>
                 </li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                  <Link className="link"  rel="noopener noreferrer" to="/contact/jobs">Jobs</Link>
+                  {/* <Link className="link"  rel="noopener noreferrer" to="/contact/jobs">Jobs</Link> */}
                 </li>
                 <li className="menu-item menu-item-type-post_type menu-item-object-page">
                   <Link className="link" to="/contact/partnerwith-us">Partner With Us</Link>
